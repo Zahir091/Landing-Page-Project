@@ -3,10 +3,10 @@
 }
 
 .main {
-    
+    max-width: fit-content;
     display:flex;
     flex-direction: column;
-    padding: 0 50px;
+ 
  }
 
 #nav-bar {
@@ -40,8 +40,8 @@
     display: flex;
     align-items: center;
 
-
 }
+
 
 .nav-button {
     height: 50px;
@@ -67,9 +67,9 @@
  }
 
 #vpn {
-    max-width: 38px;
-    max-height: 32px;
-
+    max-width: 40px;
+    max-height: 40px;
+    margin-bottom: 10px;
  }
 
  #hero {
@@ -78,8 +78,8 @@
  }
 
  #logo {
-    display:flex;
-    gap: 10px;
+    display:flex;  
+    gap:5px;
  }
 
  /* Hero */
@@ -102,30 +102,59 @@
     font-size: 30px;
 }
 
-#hero {
-
-}
 
 #stats {
     display:flex;
-    background-color: grey;
+    background-color: bisque;
     justify-content: center;
     gap: 20px;
    
 }
 .item .col img {
     border: solid black 1px;
-    border-radius: 30px;
-    width: 20px;
-    height: 20px;
-   
+    
+    padding: 30px;
+    height:140px;
+    width:140px;
+   box-sizing: border-box;
 }
 #stats .item {
     border: dotted green 1px;
     display: flex;
-    align-items: center;
     gap: 20px;
+    padding: 20px;
+}
+
+#serverLink, #logoLink, #usersLink, #locationLink {
+    width:0px;
+    height:0px;
+}
+
+#logoLink:visited {
+    color:black;
+    text-decoration: none;
+    
 }
 
 
+.col #numUsers, .col #numLocations, .col #numServers {
+    font-size: 55px;
+    height:35px;
+    margin:0px;
+}
 
+
+.col #txtLocations, .col #txtServers, .col #txtUsers {
+    font-size: 18px;
+    color:gray;
+}
+
+.item .col.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*#users-img, #locations-img, #server-img {
+    height:40px;
+    width:40px;
+}*/
