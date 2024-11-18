@@ -111,13 +111,14 @@
 }
 
 
-
+/*Stats code*/
 #stats {
     display:flex;
     background-color: bisque;
     justify-content: center;
     gap: 20px;
-   
+    z-index: 2;
+    
 }
 .item .col img {
 
@@ -167,3 +168,26 @@
     height:40px;
     width:40px;
 }*/
+
+/*Features code*/
+
+#features {
+    display:flex;
+    padding: 10px 150px;
+}
+
+.col.feat {
+    width:50%;
+}
+.featGroup {
+    display:flex;
+}
+
+#featIMG {
+    width:100%;
+}
+
+.featGroup img {
+    width:100px;
+    height:100px;
+}
