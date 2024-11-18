@@ -20,6 +20,7 @@
     padding-left: 50px;
     padding-right: 50px;
     box-shadow: 0px 1px 1px 1px lightgray;
+   
 }
 
 #nav-btns .nav-button {
@@ -95,6 +96,11 @@
 .col img {
     width:100%;
     height:auto;
+
+}
+
+#img {
+    padding-right: 150px;
 }
 
 #text {
@@ -174,6 +180,7 @@
 #features {
     display:flex;
     padding: 10px 150px;
+    gap:20px;
 }
 
 .col.feat {
@@ -187,7 +194,31 @@
     width:100%;
 }
 
-.featGroup img {
-    width:100px;
-    height:100px;
+.featGroup .check {
+    width:30px;
+    height:30px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+#featMainContent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+#bigHeader {
+    font-size: 40px;
+  
+}
+
+.featItem {
+    font-size: 18px;
+}
+
+.featGroup  {
+    display: flex;
+    gap: 10px;
+   
 }
