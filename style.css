@@ -79,14 +79,14 @@
 
  #logo {
     display:flex;  
-    gap:5px;
+    gap:10px;
  }
 
  /* Hero */
 
  #hero .col {
     width: 50%;
-    border: solid red 1px;
+
  }
 
 .col img {
@@ -96,11 +96,17 @@
 
 #text {
     margin: auto 0;
+    padding-left: 150px;
 }
 
 #CTACatchLine {
-    font-size: 30px;
+    font-size: 50px;
 }
+
+#CTAUnderText {
+    font-size: 25px;
+}
+
 
 
 #stats {
@@ -111,7 +117,7 @@
    
 }
 .item .col img {
-    border: solid black 1px;
+
     
     padding: 30px;
     height:140px;
@@ -119,13 +125,13 @@
    box-sizing: border-box;
 }
 #stats .item {
-    border: dotted green 1px;
+    
     display: flex;
     gap: 20px;
     padding: 20px;
 }
 
-#serverLink, #logoLink, #usersLink, #locationLink {
+#serverLink,  #usersLink, #locationLink {
     width:0px;
     height:0px;
 }
