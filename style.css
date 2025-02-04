@@ -47,11 +47,11 @@
     z-index: 1;
 }
 
-.nav-button {
+.nav-button, #CTA-Button {
     height: 50px;
 }
 
-#nav-cta .nav-button {
+#nav-cta .nav-button, #CTA-Button {
   border-radius: 10px;
   font-size: 16px;
   padding: 15px;
@@ -66,7 +66,7 @@
     background-color: bisque;
  }
 
- #log-in {
+ #log-in, #CTA-Button {
     background-color: white;
  }
 
@@ -78,7 +78,11 @@
 
  #hero {
     display:flex;
-
+    background-color:white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
  #logo {
@@ -90,17 +94,19 @@
 
  #hero .col {
     width: 50%;
-
+   
+    
  }
 
 .col img {
     width:100%;
     height:auto;
-
+    
 }
 
 #img {
     padding-right: 150px;
+    height:100%;
 }
 
 #text {
@@ -120,11 +126,12 @@
 /*Stats code*/
 #stats {
     display:flex;
-    background-color: bisque;
+    background-color:bisque;
     justify-content: center;
     gap: 20px;
     z-index: 2;
-    
+    box-shadow: 0px 0px 10px rgba(190, 179, 163, 0.6);
+    margin:  0 250px;
 }
 .item .col img {
 
@@ -180,18 +187,23 @@
 #features {
     display:flex;
     padding: 2px 150px;
+    margin: 50px 0;
     gap:20px;
+    background-color: rgb(255, 255, 255);
 }
 
-.col.feat {
-    width:50%;
+.col.feat.img {
+    width:60%;
+    
 }
 .featGroup {
     display:flex;
+
 }
 
 #featIMG {
     width:100%;
+
 }
 
 .featGroup .check {
@@ -206,11 +218,16 @@
     flex-direction: column;
     justify-content: center;
   
+    padding:0;
+    box-sizing: border-box;
+    padding-left: 60px;
+    
+    align-self: center;
 }
 
 #bigHeader {
     font-size: 40px;
-  
+  margin:0;
 }
 
 .featItem {
@@ -221,4 +238,8 @@
     display: flex;
     gap: 10px;
    
+}
+
+.featContainer {
+
 }
